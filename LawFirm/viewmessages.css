@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Container{
+width: 100%;
+height: 120px;
+padding-left: 8%; 
+padding-right: 8%;
+}
+
+.NavBar{
+    display: flex;
+    align-items: center;
+    padding: 0%;
+    padding-top: 20px
+}
+
+.Header{
+    background: black;
+}
+
+.Footer{
+    background: #000;
+    color: #8a8a8a;
+    font-size: 14px;
+    padding: 10px;
+    text-align: center;
+}
+
+.slogan{
+    flex: 1;
+    text-align: right;
+}
+
+.slogan > h2{
+    color: #bf996f;
+    font-style: italic;
+}
+
+.slogan a{
+    color: #bf996f;
+}
+ 
+.Footer > p{
+    color: white;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.App-Logo img {
+    margin-top: 10px;
+    width: 250px;
+    height: auto;
+}
+.Footer hr{
+    border: none;
+    background: #b5b5b5;
+    height: 1px;
+    margin: 10px 0;
+}
+.Copyright{
+    text-align: center;
+}
+
+.NavBar img{
+    width: 300px;   
+}
+
+.Content-Container {
+    background-image: url(Img/lawyer.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: #bf996f;
+}
+
+table {
+    background-color: white;
+}

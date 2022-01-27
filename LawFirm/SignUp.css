@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.NavBar{
+    display: flex;
+    align-items: center;
+    padding: 0%;
+    padding-top: 20px
+}
+nav{
+    flex:1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+
+}
+
+
+a {
+  text-decoration: none;
+  color: #bf996f;
+}
+
+p{
+    padding: 15px 0;
+    color: #555;
+} 
+
+.Container{
+    width: 100%;
+    height: 100px;
+    padding-left: 8%; 
+    padding-right: 8%;
+}
+
+.Content-Container {
+    background-image: url(Img/img.png);
+    
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.Content-Container h1{
+    
+    text-align: center;
+    padding-top: 40px;
+    padding-right: 50px;
+    color: black;
+}
+.Btn{
+    background: black;
+    color:#fff;
+    padding: 6px 50px;
+    margin: 30x 0;
+    border-radius: 30px;
+}
+.Btn:hover{
+    background: #563434;
+}
+.Header{
+    background: black;
+}
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: black;
+  min-width: 100px;
+}
+
+.dropdown-content a {
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+ <!-------------- Hover-------->
+.dropdown-content a:hover {background-color: #F8F8FF;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: gray;padding: 16px;}
+
+
+.Footer{
+    background: #000;
+    color: #8a8a8a;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.Footer > p{
+    color: white;
+}
+ul{
+    list-style-type: none;
+}
+
+.App-Logo img {
+    margin-top: 10px;
+    width: 250px;
+    height: auto;
+}
+.Footer hr{
+    border: none;
+    background: #b5b5b5;
+    height: 1px;
+    margin: 10px 0;
+}
+.Copyright{
+    text-align: center;
+}
+
+
+
+
