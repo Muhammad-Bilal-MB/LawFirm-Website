@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Container{
+    width: 100%;
+    height: 120px;
+    padding-left: 8%; 
+    padding-right: 8%;
+}
+
+.NavBar{
+    display: flex;
+    align-items: center;
+    padding: 0%;
+    padding-top: 20px
+}
+
+a {
+    text-decoration: none;
+    color: #bf996f;
+}
+
+.Content-Container {
+    display: flex;
+    background-image: url(Img/law-firm-websites.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.Header{
+    background: black;
+}
+
+.Footer{
+    background: #000;
+    color: #8a8a8a;
+    font-size: 14px;
+    padding: 10px;
+    text-align: center;
+}
+ 
+.Footer > p{
+    color: white;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.App-Logo img {
+    margin-top: 10px;
+    width: 250px;
+    height: auto;
+}
+
+.Footer hr{
+    border: none;
+    background: #b5b5b5;
+    height: 1px;
+    margin: 10px 0;
+}
+
+.Copyright{
+    text-align: center;
+}
+
+.NavBar img{
+    width: 300px;   
+}
+
+.Addlawyer {
+    background-color: rgba(255, 255, 255, 0.70);
+    display: block;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 33%;
+    height: 50%;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.Editlawyer {
+    background-color: rgba(255, 255, 255, 0.70);
+    display: block;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 33%;
+    height: 50%;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.Viewmsg {
+    background-color: rgba(255, 255, 255, 0.7);
+    display: block;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 33%;
+    height: 50%;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.Addlawyer img {
+    margin-top: 20px;
+    width: 150px;
+    height: auto;
+}
+
+.Editlawyer img {
+    margin-top: 20px;
+    width: 150px;
+    height: auto;
+}
+
+.Viewmsg img {
+    margin-top: 20px;
+    width: 150px;
+    height: auto;
+}
+
+.Addlawyer button {
+    width: 180px;
+    margin-top: 10px;
+    border-radius: 20px;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.Editlawyer button {
+    width: 180px;
+    margin-top: 10px;
+    border-radius: 20px;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.Viewmsg button {
+    width: 180px;
+    margin-top: 10px;
+    border-radius: 20px;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.Addlawyer button:hover {
+    background-color: green;
+    color: white;
+}
+
+.Editlawyer button:hover {
+    background-color: green;
+    color: white;
+}
+
+.Viewmsg button:hover {
+    background-color: green;
+    color: white;
+}
+
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+}
+    
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+.modal2 {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+    padding-top: 60px;
+}
+
+.modal-content2 {
+    background-image: url(Img/login.jpg);
+    background-size: cover;
+    margin: 5% auto 15% auto;
+    border: 1px solid #888;
+    width: 50%;
+    border-radius: 20px;
+}
+
+input[type=text],input[type=password], input[type=email]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+input[type=radio]{
+    margin-left: 20px;
+}
+
+#id02 button {
+    background-color: #bf996f;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: black;
+    cursor: pointer;
+    width: 100%;
+
+    border-radius: 20px;
+}
+
+#id02 button:hover {
+    background-color: black;
+    color: #bf996f;
+}
+
+.data {
+    padding: 15px;
+}
+
+
+
+
+  
