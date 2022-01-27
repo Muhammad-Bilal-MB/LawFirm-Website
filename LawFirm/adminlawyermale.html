@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Male Lawyers</title>
+        <link rel="stylesheet" href="adminlawyermale.css">
+    </head>
+
+    <body>
+        <div class="Header">
+            <div class="Container">
+                <div class="NavBar">
+                    <div class="Logo" >
+                        <img src="Img/law.png" >
+                    </div>
+
+                    <div class="slogan">
+                        <h2>Your Trust Comes First</h2>
+                    </div>
+                </div>
+            </div> 
+        </div>
+
+        <div id="cc" class="Content-Container">
+            
+        </div>
+        <br>
+        <div>
+            <table border="1">
+                <thead>
+                    <th>Firstname</th>
+                    <th>Lastname</th>
+                    <th></th>
+                </thead>
+                <tbody>
+                    <?php
+                        include('conn.php');
+                        $query=mysqli_query($conn,"select * from `user`");
+                        while($row=mysqli_fetch_array($query)){
+                            ?>
+                            <tr>
+                                <td><?php echo $row['firstname']; ?></td>
+                                <td><?php echo $row['lastname']; ?></td>
+                                <td>
+                                    <a href="edit.php?id=<?php echo $row['userid']; ?>">Edit</a>
+                                    <a href="delete.php?id=<?php echo $row['userid']; ?>">Delete</a>
+                                </td>
+                            </tr>
+                            <?php
+                        }
+                    ?>
+                </tbody>
+            </table>
+        </div>
+
+        </div>
+
+        <div class="Footer">
+            <div class="App-Logo">
+                <img src="Img/law.png">
+            </div>
+            <hr>
+            <p class="Copyright">Copyright 2021 - Law Firm Website</p>
+        </div>
+    </body>
+</html>
