@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Container{
+width: 100%;
+height: 120px;
+padding-left: 8%; 
+padding-right: 8%;
+}
+
+.NavBar{
+    display: flex;
+    align-items: center;
+    padding: 0%;
+    padding-top: 20px
+}
+
+.topnav li:hover{
+    background-color: #bf996f;
+    transition: 0.4s;
+    border-radius: 20px;
+}
+
+.topnav{
+    background-color: black;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding-bottom: 10px;
+    width: 30%;
+}
+
+.Header{
+    background: black;
+}
+
+.slogan{
+    flex: 1;
+    text-align: right;
+}
+
+.slogan > h2{
+    color: #bf996f;
+    font-style: italic;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: black;
+  min-width: 90px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.dropdown-content a {
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+ <!-------------- Hover-------->
+.dropdown-content a:hover {background-color: #F8F8FF;}
+.dropdown:hover .dropdown-content {display: block;}
+
+
+.dropdown-content a:hover {
+  background-color: #bf996f;
+  color: black;
+}
+
+.dropdown-content a:first-child:hover{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.dropdown-content a:first-child~:hover{
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+
+.Footer{
+    background: #000;
+    color: #8a8a8a;
+    font-size: 14px;
+    padding: 10px;
+    text-align: center;
+}
+ 
+.Footer > p{
+    color: white;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.App-Logo img {
+    margin-top: 10px;
+    width: 250px;
+    height: auto;
+}
+.Footer hr{
+    border: none;
+    background: #b5b5b5;
+    height: 1px;
+    margin: 10px 0;
+}
+.Copyright{
+    text-align: center;
+}
+
+.NavBar img{
+    width: 300px;   
+}
+
+.mainContent{
+    display: block; 
+    margin-left: 20px;
+    margin-right: 20px; 
+    margin-top: 20px; 
+}
+
+.Content-Container {
+    background-image: url(Img/landing.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+}
+
+.intro{
+    background-color: rgba(27, 27, 27, 0.795); 
+    width: 100%;
+    text-align: justify;
+    margin-top: 20px; 
+    border: 2px solid white;
+}
+
+.mission{
+    background-color: rgba(196, 156, 82, 0.795); 
+    text-align: justify; 
+    width: 100%;  
+    margin-top: 20px;  
+    border: 2px solid white;
+}
+
+a {
+    text-decoration: none;
+    color: #bf996f;
+  }
+
